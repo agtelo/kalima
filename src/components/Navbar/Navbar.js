@@ -1,5 +1,7 @@
 import React from "react";
 import Brand from "../Brand";
+import CartWidget from "../Navbar/CartWidget/CartWidget";
+import "./navBar.css";
 
 function Navbar() {
   return (
@@ -35,6 +37,10 @@ function Navbar() {
               <a className="nav-link" href="/">
                 Mochilas
               </a>
+              <a className="nav-link" href="/">
+                Mochilas
+              </a>
+              <CartWidget />
             </div>
           </div>
         </div>
