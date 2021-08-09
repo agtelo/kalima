@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
+import ItemCount from "./components/ItemCount/ItemCount";
 
 import "./App.css";
 
@@ -9,6 +10,7 @@ function App() {
     <div>
       <Navbar />
       <ItemListContainer greeting="Bienvenidos a Kalima" />
+      <ItemCount />
     </div>
   );
 }
