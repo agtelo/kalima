@@ -7,8 +7,8 @@ const brand = () => {
         <img
           src="/images/logo.png"
           alt="Mola"
-          width={70}
-          height={70}
+          width={100}
+          height={100}
           className="d-inline-block align-text-center"
         />
       </a>

@@ -1,8 +1,9 @@
-.navbar-dark .navbar-nav .nav-link {
-    color: rgb(255 255 255);
-    
+.bg-dark {
+    background-color: #fbfbfb!important;
 }
-.navbar-dark .navbar-nav .nav-link:hover {
-    color:rgb(105, 230, 203);
+
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+    text-transform: uppercase;
     
 }

@@ -37,9 +37,6 @@ function Navbar() {
               <a className="nav-link" href="/">
                 Mochilas
               </a>
-              <a className="nav-link" href="/">
-                Mochilas
-              </a>
               <CartWidget />
             </div>
           </div>
