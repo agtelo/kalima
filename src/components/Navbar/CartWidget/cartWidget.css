@@ -1,5 +1,14 @@
-.bi-bag-fill{
-    color: black
+.cart-icon{
+    width: 50px;
+    margin: auto;
 }
+.bi-bag-fill{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
 
+    }
+.bi-bag-fill:hover{
+    color: rgb(96, 99, 98);
+
+    }  
 

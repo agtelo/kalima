@@ -7,3 +7,9 @@
     text-transform: uppercase;
     
 }
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(96, 99, 98);
+}
+
+
