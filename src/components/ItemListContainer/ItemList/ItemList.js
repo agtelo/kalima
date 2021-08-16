@@ -2,6 +2,7 @@ export const items = [
   {
     id: 1,
     Product_type: "Card Slider",
+    Category: "Card Slider",
     Brand: "Walla",
     Model: "Black",
     Price: 2050,
@@ -13,6 +14,7 @@ export const items = [
   {
     id: 2,
     Product_type: "Card Slider",
+    Category: "Card Slider",
     Brand: "Walla",
     Model: "Fire",
     Price: 2050,
@@ -24,6 +26,7 @@ export const items = [
   {
     id: 3,
     Product_type: "Card Slider",
+    Category: "Card Slider",
     Brand: "Walla",
     Model: "Silver",
     Price: 2050,
@@ -35,6 +38,7 @@ export const items = [
   {
     id: 4,
     Product_type: "Card Slider",
+    Category: "Card Slider",
     Brand: "Walla",
     Model: "Marino",
     Price: 2050,
@@ -46,6 +50,7 @@ export const items = [
   {
     id: 5,
     Product_type: "Card Slider",
+    Category: "Card Slider",
     Brand: "Walla",
     Model: "Cubic Bx",
     Price: 2750,
@@ -55,6 +60,7 @@ export const items = [
   {
     id: 6,
     Product_type: "Card Slider",
+    Category: "Card Slider",
     Brand: "Walla",
     Model: "Cubic Black",
     Price: 2750,
@@ -66,6 +72,7 @@ export const items = [
   {
     id: 7,
     Product_type: "Card Slider",
+    Category: "Card Slider",
     Brand: "Walla",
     Model: "Marino Net",
     Price: 2750,
@@ -77,6 +84,7 @@ export const items = [
   {
     id: 8,
     Product_type: "Card Slider",
+    Category: "Card Slider",
     Brand: "Walla",
     Model: "Overlock Grey",
     Price: 2750,
