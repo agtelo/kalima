@@ -9,10 +9,12 @@ const Item = (props) => {
         <div className="card-body">
           <ul className="list-group list-group-flush">
             <li className="list-group-item">
+              <strong>{props.product_type}</strong>
+              <br />
               <strong>{props.model}</strong>
             </li>
             <li className="list-group-item-price">
-              <h5>{props.price}</h5>
+              <p>{props.price}</p>
             </li>
           </ul>
           <button type="button" className="btn-more">

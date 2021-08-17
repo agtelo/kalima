@@ -27,6 +27,7 @@ const ItemDetailContainer = () => {
       product_type={item.Product_type}
       brand={item.Brand}
       model={item.Model}
+      description={item.Description}
       price={"$" + item.Price}
       img_product={item.Img_product}
       stock={item.Stock}

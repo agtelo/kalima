@@ -7,7 +7,7 @@
     margin: 3rem;
 }
 
-.product-image {
+.product-detail-image img{
     width: 70%;
     height: 100%;
 }
@@ -16,17 +16,21 @@
     border: solid, 1px, grey;
     width: 90%;
 }
-.product-description p{
-    color: rgb(6, 70, 180);
+.product-description p {
+    font-size: 22px;
+    font-weight:lighter;
+    
+}
+
+.product-description h3 {
+    font-weight:bold;
 }
 
 .itemcount{
     margin: auto;
 }
 
-.fa-credit-card {
-    margin-right: 1rem;
-}
+
 
 @media  screen and (max-width: 768px){
     .details-container{

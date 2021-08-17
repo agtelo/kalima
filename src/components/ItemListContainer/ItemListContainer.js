@@ -28,7 +28,8 @@ const ItemListContainer = (props) => {
       product_type={item.Product_type}
       brand={item.Brand}
       model={item.Model}
-      price={"Precio $" + item.Price}
+      desciption={item.desciption}
+      price={"$" + item.Price}
       img_product={item.Img_product}
       stock={item.Stock}
     />

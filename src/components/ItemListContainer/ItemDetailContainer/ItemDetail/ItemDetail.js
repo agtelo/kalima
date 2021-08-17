@@ -8,17 +8,14 @@ const ItemDetail = (props) => {
     <>
       <div className="product-Container">
         <div className="details-container">
-          <div className="product-image">{props.img_product}</div>
+          <div className="product-detail-image">{props.img_product}</div>
           <div className="product-description">
-            <h3>
-              {props.product_type}
-
-              {props.brand}
-            </h3>
-            <h2>{props.price}</h2>
-            <div className="counter">
-              <ItemCount productStock={props.stock} />
-            </div>
+            <h3>{props.product_type}</h3>
+            <h3>{props.model}</h3>
+            <br />
+            <p>{props.price}</p>
+            <p>{props.description}</p>
+            <div className="counter"></div>
           </div>
         </div>
       </div>

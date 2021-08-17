@@ -5,7 +5,9 @@ export const items = [
     Category: "Card Slider",
     Brand: "Walla",
     Model: "Black",
-    Price: 2050,
+    Description:
+      "El Card Slider cuenta con un Sistema de deslizamiento de tarjetas hacia arriba en forma escalonada que se acciona con un simple Click, brindándote mucha agilidad y practicidad.",
+    Price: "2.050",
     Stock: 15,
     Img_product: (
       <img src="/images/product/card-sliders/slider-black-frente.jpg" alt="" />
@@ -17,7 +19,9 @@ export const items = [
     Category: "Card Slider",
     Brand: "Walla",
     Model: "Fire",
-    Price: 2050,
+    Description:
+      "El Card Slider cuenta con un Sistema de deslizamiento de tarjetas hacia arriba en forma escalonada que se acciona con un simple Click, brindándote mucha agilidad y practicidad.",
+    Price: "2.050",
     Stock: 4,
     Img_product: (
       <img src="/images/product/card-sliders/slider-fire-frente.jpg" alt="" />
@@ -29,7 +33,9 @@ export const items = [
     Category: "Card Slider",
     Brand: "Walla",
     Model: "Silver",
-    Price: 2050,
+    Description:
+      "El Card Slider cuenta con un Sistema de deslizamiento de tarjetas hacia arriba en forma escalonada que se acciona con un simple Click, brindándote mucha agilidad y practicidad.",
+    Price: "2.050",
     Stock: 2,
     Img_product: (
       <img src="/images/product/card-sliders/slider-silver-frente.jpg" alt="" />
@@ -41,7 +47,9 @@ export const items = [
     Category: "Card Slider",
     Brand: "Walla",
     Model: "Marino",
-    Price: 2050,
+    Description:
+      "El Card Slider cuenta con un Sistema de deslizamiento de tarjetas hacia arriba en forma escalonada que se acciona con un simple Click, brindándote mucha agilidad y practicidad.",
+    Price: "2.050",
     Stock: 7,
     Img_product: (
       <img src="/images/product/card-sliders/slider-marino-frente.jpg" alt="" />
@@ -53,7 +61,9 @@ export const items = [
     Category: "Card Slider",
     Brand: "Walla",
     Model: "Cubic Bx",
-    Price: 2750,
+    Description:
+      "El Card Slider cuenta con un Sistema de deslizamiento de tarjetas hacia arriba en forma escalonada que se acciona con un simple Click, brindándote mucha agilidad y practicidad.",
+    Price: "2.750",
     Stock: 10,
     Img_product: <img src="/images/product/card-sliders/cubic-bx.jpg" alt="" />,
   },
@@ -63,7 +73,9 @@ export const items = [
     Category: "Card Slider",
     Brand: "Walla",
     Model: "Cubic Black",
-    Price: 2750,
+    Description:
+      "El Card Slider cuenta con un Sistema de deslizamiento de tarjetas hacia arriba en forma escalonada que se acciona con un simple Click, brindándote mucha agilidad y practicidad.",
+    Price: "2.750",
     Stock: 3,
     Img_product: (
       <img src="/images/product/card-sliders/cubic-black.jpg" alt="" />
@@ -75,7 +87,9 @@ export const items = [
     Category: "Card Slider",
     Brand: "Walla",
     Model: "Marino Net",
-    Price: 2750,
+    Description:
+      "El Card Slider cuenta con un Sistema de deslizamiento de tarjetas hacia arriba en forma escalonada que se acciona con un simple Click, brindándote mucha agilidad y practicidad.",
+    Price: "2.750",
     Stock: 3,
     Img_product: (
       <img src="/images/product/card-sliders/net-marino.jpg" alt="" />
@@ -87,7 +101,9 @@ export const items = [
     Category: "Card Slider",
     Brand: "Walla",
     Model: "Overlock Grey",
-    Price: 2750,
+    Description:
+      "El Card Slider cuenta con un Sistema de deslizamiento de tarjetas hacia arriba en forma escalonada que se acciona con un simple Click, brindándote mucha agilidad y practicidad.asdsadasdasdasd",
+    Price: "2.750",
     Stock: 3,
     Img_product: (
       <img src="/images/product/card-sliders/overlook-grey.jpg" alt="" />
