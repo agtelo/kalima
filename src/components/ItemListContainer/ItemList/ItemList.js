@@ -2,7 +2,7 @@ export const items = [
   {
     id: 1,
     Product_type: "Card Slider",
-    Category: "Card Slider",
+    Category: "Card-Slider",
     Brand: "Walla",
     Model: "Black",
     Description:
@@ -16,7 +16,7 @@ export const items = [
   {
     id: 2,
     Product_type: "Card Slider",
-    Category: "Card Slider",
+    Category: "Card-Slider",
     Brand: "Walla",
     Model: "Fire",
     Description:
@@ -30,7 +30,7 @@ export const items = [
   {
     id: 3,
     Product_type: "Card Slider",
-    Category: "Card Slider",
+    Category: "Card-Slider",
     Brand: "Walla",
     Model: "Silver",
     Description:
@@ -44,7 +44,7 @@ export const items = [
   {
     id: 4,
     Product_type: "Card Slider",
-    Category: "Card Slider",
+    Category: "Card-Slider",
     Brand: "Walla",
     Model: "Marino",
     Description:
@@ -58,7 +58,7 @@ export const items = [
   {
     id: 5,
     Product_type: "Card Slider",
-    Category: "Card Slider",
+    Category: "Card-Slider",
     Brand: "Walla",
     Model: "Cubic Bx",
     Description:
@@ -70,7 +70,7 @@ export const items = [
   {
     id: 6,
     Product_type: "Card Slider",
-    Category: "Card Slider",
+    Category: "Card-Slider",
     Brand: "Walla",
     Model: "Cubic Black",
     Description:
@@ -84,7 +84,7 @@ export const items = [
   {
     id: 7,
     Product_type: "Card Slider",
-    Category: "Card Slider",
+    Category: "Card-Slider",
     Brand: "Walla",
     Model: "Marino Net",
     Description:
@@ -98,11 +98,11 @@ export const items = [
   {
     id: 8,
     Product_type: "Card Slider",
-    Category: "Card Slider",
+    Category: "Card-Slider",
     Brand: "Walla",
     Model: "Overlock Grey",
     Description:
-      "El Card Slider cuenta con un Sistema de deslizamiento de tarjetas hacia arriba en forma escalonada que se acciona con un simple Click, brindándote mucha agilidad y practicidad.asdsadasdasdasd",
+      "El Card Slider cuenta con un Sistema de deslizamiento de tarjetas hacia arriba en forma escalonada que se acciona con un simple Click, brindándote mucha agilidad y practicidad.",
     Price: "2.750",
     Stock: 3,
     Img_product: (

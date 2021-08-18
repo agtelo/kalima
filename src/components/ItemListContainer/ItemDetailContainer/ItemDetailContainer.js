@@ -1,9 +1,12 @@
 import { React, useState, useEffect } from "react";
 import { items } from "../ItemList/ItemList";
 import ItemDetail from "./ItemDetail/ItemDetail";
+import { useParams } from "react-router-dom";
 
 const ItemDetailContainer = () => {
   const [list, setList] = useState([]);
+
+  const { category, id } = useParams();
 
   useEffect(() => {
     const getProductDetail = () => {
@@ -20,11 +23,13 @@ const ItemDetailContainer = () => {
       setList(productList);
     }
   }, []);
-  const detailItem = list.filter((item) => item.Category === "Card Slider");
+  const detailItem = list.find((item) => item.id === id);
   const detailProducts = detailItem.map((item) => (
     <ItemDetail
       key={item.id}
+      id={item.id}
       product_type={item.Product_type}
+      category={item.Category}
       brand={item.Brand}
       model={item.Model}
       description={item.Description}

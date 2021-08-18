@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./item.css";
 
 const Item = (props) => {
@@ -17,9 +18,11 @@ const Item = (props) => {
               <p>{props.price}</p>
             </li>
           </ul>
-          <button type="button" className="btn-more">
-            Ver Detalle
-          </button>
+          <Link to={`/${props.category}/${props.id}`}>
+            <button type="button" className="btn-more">
+              Ver Detalle
+            </button>
+          </Link>
         </div>
       </div>
     </>

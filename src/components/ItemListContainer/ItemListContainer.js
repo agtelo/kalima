@@ -1,11 +1,15 @@
 import { React, useState, useEffect } from "react";
 import { items } from "./ItemList/ItemList";
 import Item from "./Item/Item";
+import { useParams } from "react-router-dom";
 
 import "./itemListContainer.css";
 
 const ItemListContainer = (props) => {
   const [list, setList] = useState([]);
+
+  const { category, id } = useParams();
+
   useEffect(() => {
     const getProductDetail = () => {
       return new Promise((resolve, reject) => {
@@ -21,14 +25,16 @@ const ItemListContainer = (props) => {
       setList(productList);
     }
   }, []);
-  const listItem = list.filter((item) => item.Category === "Card Slider");
+  const listItem = list.filter((item) => item.Category === category);
   const itemProducts = listItem.map((item) => (
     <Item
       key={item.id}
+      id={item.id}
       product_type={item.Product_type}
+      category={item.Category}
       brand={item.Brand}
       model={item.Model}
-      desciption={item.desciption}
+      desciption={item.Desciption}
       price={"$" + item.Price}
       img_product={item.Img_product}
       stock={item.Stock}

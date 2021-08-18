@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Brand from "../Brand";
 import CartWidget from "../Navbar/CartWidget/CartWidget";
 import "./navBar.css";
@@ -22,21 +23,21 @@ function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav m-lg-4">
-              <a className="nav-link" href="/">
-                Card Sliders
-              </a>
-              <a className="nav-link" href="/">
-                Billeteras
-              </a>
-              <a className="nav-link" href="/">
-                Billeteras Dobles
-              </a>
-              <a className="nav-link" href="/">
-                Relojes
-              </a>
-              <a className="nav-link" href="/">
-                Mochilas
-              </a>
+              <Link to="/card-sliders" className="nav-link">
+                <p>Card Sliders</p>
+              </Link>
+              <Link to="/billeteras" className="nav-link">
+                <p>Billeteras</p>
+              </Link>
+              <Link to="/billeteras-dobles" className="nav-link">
+                <p>Billeteras Dobles</p>
+              </Link>
+              <Link to="relojes/" className="nav-link">
+                <p>Relojes</p>
+              </Link>
+              <Link to="/mochilas" className="nav-link">
+                <p>Mochilas</p>
+              </Link>
               <CartWidget />
             </div>
           </div>
