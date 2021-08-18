@@ -15,7 +15,9 @@ const ItemDetail = (props) => {
             <br />
             <p>{props.price}</p>
             <p>{props.description}</p>
-            <div className="counter"></div>
+            <div className="counter">
+              <ItemCount />
+            </div>
           </div>
         </div>
       </div>

@@ -17,10 +17,10 @@ function App() {
           <Route path="/" exact>
             <ItemListContainer greeting="Bienvenidos a Kalima" />
           </Route>
-          <Route path="/category" exact>
+          <Route path="/:category" exact>
             <ItemListContainer greeting="Bienvenidos a Kalima" />
           </Route>
-          <Route path="/category/:id" exact>
+          <Route path="/:category/:id" exact>
             <ItemDetailContainer />
           </Route>
         </Switch>

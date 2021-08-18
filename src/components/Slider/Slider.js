@@ -1,6 +1,6 @@
 import React from "react";
 
-const slide = () => {
+const slider = () => {
   return (
     <div
       id="carouselExampleIndicators"
@@ -61,4 +61,4 @@ const slide = () => {
   );
 };
 
-export default slide;
+export default slider;
