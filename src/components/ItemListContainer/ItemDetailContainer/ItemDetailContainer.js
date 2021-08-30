@@ -1,5 +1,5 @@
 import { React, useState, useEffect } from "react";
-import { items } from "../ItemList/ItemList";
+import data from "../../../data/data";
 import ItemDetail from "./ItemDetail/ItemDetail";
 import { useParams } from "react-router-dom";
 
@@ -12,7 +12,7 @@ const ItemDetailContainer = (props) => {
     const getProductDetail = () => {
       return new Promise((resolve, reject) => {
         setTimeout(() => {
-          resolve(items);
+          resolve(data);
         }, 2000);
       });
     }; //getProductDetail().then((items) => console.log(items));

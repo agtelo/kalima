@@ -29,10 +29,7 @@ function Navbar() {
               <Link to="/billeteras" className="nav-link">
                 <p>Billeteras</p>
               </Link>
-              <Link to="/billeteras-dobles" className="nav-link">
-                <p>Billeteras Dobles</p>
-              </Link>
-              <Link to="relojes/" className="nav-link">
+              <Link to="/relojes" className="nav-link">
                 <p>Relojes</p>
               </Link>
               <Link to="/mochilas" className="nav-link">

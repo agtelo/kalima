@@ -3,8 +3,9 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 import ItemDetailContainer from "./components/ItemListContainer/ItemDetailContainer/ItemDetailContainer";
-import Slider from "./components/Slider/Slider";
 import Cart from "./components/Cart/Cart";
+import { CartFunction } from "./components/contexts/CartContext";
+import ItemList from "./components/ItemListContainer/ItemList/ItemList";
 
 import "./App.css";
 
@@ -13,19 +14,18 @@ function App() {
     <div>
       <BrowserRouter>
         <Navbar />
-        <Slider />
         <Switch>
           <Route path="/" exact>
             <ItemListContainer greeting="Bienvenidos a Kalima" />
           </Route>
           <Route path="/:category" exact>
-            <ItemListContainer greeting="Bienvenidos a Kalima" />
+            <ItemList />
           </Route>
           <Route path="/:category/:id" exact>
             <ItemDetailContainer />
           </Route>
         </Switch>
-        <Route path="/Cart" exact>
+        <Route path="/cart" exact>
           <Cart />
         </Route>
       </BrowserRouter>

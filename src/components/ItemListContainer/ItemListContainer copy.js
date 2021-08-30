@@ -1,9 +1,9 @@
 import { React, useState, useEffect } from "react";
-import data from "../../../data/data";
-import Item from "../Item/Item";
+import { items } from "./ItemList/ItemList";
+import Item from "./Item/Item";
 import { useParams } from "react-router-dom";
-
-import "../itemListContainer.css";
+import Slider from "../Slider/Slider";
+import "./itemListContainer.css";
 
 const ItemListContainer = (props) => {
   const [list, setList] = useState([]);
@@ -14,7 +14,7 @@ const ItemListContainer = (props) => {
     const getProductDetail = () => {
       return new Promise((resolve, reject) => {
         setTimeout(() => {
-          resolve(data);
+          resolve(items);
         }, 2000);
       });
     };
@@ -62,6 +62,7 @@ const ItemListContainer = (props) => {
 
   return (
     <>
+      <Slider />
             <h3 className="greeting">{props.greeting}</h3>
             <div className="container">{list}</div>
           
